@@ -6,6 +6,7 @@
 
 s = 0
 array = list(map(int,input('введите числа списка через пробел: ').split()))
-for i in range(0, len(array), 2): 
+for i in range(1, len(array), 2):
+    print(array[i]) 
     s += array[i]
 print(f'сумма нечетных элементов  = {s}')
